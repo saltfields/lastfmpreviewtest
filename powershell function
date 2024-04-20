@@ -1,4 +1,4 @@
 function lfm ($user) {
-  if($user -eq $null) {$user = 'saltfields'}
+  if($user -eq $null) {$user = 'saltfields'} #you can change it to yours!
   python (PATH) $user
 }
